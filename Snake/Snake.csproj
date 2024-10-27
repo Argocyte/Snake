@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Down_Arrow.png" />
+    <None Remove="Assets\Left_Arrow.png" />
+    <None Remove="Assets\Right_Arrow.png" />
+    <None Remove="Assets\turkey.png" />
+    <None Remove="Assets\Up_Arrow.png" />
+    <None Remove="Down_Arrow.png" />
+    <None Remove="Left_Arrow.png" />
+    <None Remove="Right_Arrow.png" />
+    <None Remove="turkey.png" />
+    <None Remove="Up_Arrow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Down_Arrow.png" />
+    <Resource Include="Assets\Left_Arrow.png" />
+    <Resource Include="Assets\Right_Arrow.png" />
+    <Resource Include="Assets\turkey.png" />
+    <Resource Include="Assets\Up_Arrow.png" />
+    <Resource Include="Left_Arrow.png" />
+  </ItemGroup>
+
+</Project>
